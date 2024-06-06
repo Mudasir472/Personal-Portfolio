@@ -1,0 +1,41 @@
+.projectsMain ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.projectsMain{
+    height: 120vh;
+}
+.lists{
+    height: 36px;
+    width: 147vh;
+}
+.active{
+    border-bottom: 1px solid #00bcd4
+}
+.allProjects{
+    height: 54vh;
+}
+.ulStyle{
+    width: 52%;
+}
+
+
+@media only screen and (max-width: 600px){
+    .lists{
+        width: 100%;
+        
+    }
+    .projectsNav{
+        width: 108%;
+    }
+    .ulStyle{
+        width: 100%;
+    }
+    .projectsMain{
+        height: 100%;
+    }
+    .allProjects{
+        height: 100%;
+    }
+
+}

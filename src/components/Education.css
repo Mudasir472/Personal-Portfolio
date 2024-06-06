@@ -1,0 +1,49 @@
+.SBadge1{
+    width: 145px;
+    background-color: rgba(105, 195, 128, 0.1);
+    color: #69c380;
+}
+.left img{
+    height: 26vh;
+}
+.eduExp{
+    width: 228%;
+}
+.left{
+    width: 34%;
+}
+.right{
+    width: 60%;
+}
+.edu1{
+    width: 100%;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 22px;
+}
+.eduSize{
+    height: 93vh;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 600px){
+    .eduExp{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .eduExp{
+        justify-content: center;
+        width: 100%;
+    }
+    .eduSize{
+        height: 160vh;
+        justify-content: center;
+        
+    }
+}

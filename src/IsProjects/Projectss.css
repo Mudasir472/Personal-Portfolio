@@ -1,0 +1,15 @@
+.img img{
+    height: 35px;
+}
+.actualProject{
+    padding: 2%;
+}
+
+.divLow{
+    width: 110%;
+}@media only screen and (max-width: 600px){
+    .divLow{
+        width: 100%;
+    }
+   
+}

@@ -1,0 +1,28 @@
+.freelance{
+    height: 41vh;
+    background: url("../Images//freelance.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+.freeRight input{
+    height: 49px;
+    width: 280px;
+    padding: 21px;
+}
+.freeRight button{
+    height: 48px;
+}
+@media only screen and (max-width: 600px){
+    .freelanceMain{
+        flex-direction: column;
+    }
+    .freelance{
+        height: 42vh;
+    }
+    .freeRight input{
+        height: 49px;
+        width: 130%;
+        padding: 21px;
+    }
+}

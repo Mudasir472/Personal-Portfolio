@@ -1,0 +1,24 @@
+.FrontSideSec img{
+    width: 70vh;
+}
+.FrontSideSec{
+    height: 84vh;
+    background-color: rgba(247, 140, 75, 0.1);
+}
+
+.mainSec{
+    height: 185px;
+    width: 52%;
+}
+
+@media only screen and (max-width: 600px) {
+    .divideIt{
+        flex-direction: column;
+    }
+    .FrontSideSec{
+        height: 120vh;
+    }
+    .mainSec{
+        width: 78%;
+    }
+}
