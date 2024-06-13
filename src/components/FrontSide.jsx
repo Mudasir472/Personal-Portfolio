@@ -35,7 +35,7 @@ const FrontSide = () => {
                         className="mainSec d-flex flex-column align-items-center justify-content-between">
                         <h5 style={{ color: "rgb(111, 128, 155)" }}>Hi! This is Mudasir Ahmad Bhat</h5>
                         <h1 style={{fontWeight:"bold"}}>I am a <Typewriter
-                        words={['Web Developer', 'Web Designer', 'Designer', 'YouTuber']}
+                        words={['Web Developer', 'Web Designer', 'Programmer', 'YouTuber']}
                         loop={true}
                         cursor
                         cursorStyle='_'

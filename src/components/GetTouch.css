@@ -1,0 +1,18 @@
+.touchLeft{
+    width: 60%;
+}
+.touchRight .rightMain img{
+    height: 300px;
+}
+.touchRight{
+    width: 40%;
+}
+.wdth-60{
+    width: 160%;
+}
+.phone{
+    width: 107%;
+}
+.getTouch{
+    background-color: #f9fbfd
+}
