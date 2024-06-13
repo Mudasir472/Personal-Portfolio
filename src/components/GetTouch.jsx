@@ -1,6 +1,5 @@
 import "./GetTouch.css"
 import contact from "../Images/contact.svg"
-
 const GetTouch = () => {
   return (
     <>
