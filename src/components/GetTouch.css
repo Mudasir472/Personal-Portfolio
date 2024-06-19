@@ -8,11 +8,36 @@
     width: 40%;
 }
 .wdth-60{
-    width: 160%;
+    width: 100%;
 }
 .phone{
     width: 107%;
 }
 .getTouch{
     background-color: #f9fbfd
+}
+.TouchMain{
+    align-items: center;
+}
+.details{
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .TouchMain{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .details{
+        flex-direction: column;
+        align-items: start;
+    }
+    .touchLeft{
+        width: 100%;
+    }
+    .touchRight{
+        width: 100%;
+        margin-top: 32px;
+    }
 }

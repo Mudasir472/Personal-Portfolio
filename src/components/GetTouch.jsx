@@ -4,14 +4,14 @@ const GetTouch = () => {
   return (
     <>
       <div className="getTouch p-5 pt-5 bg-light">
-        <div className="TouchMain container d-flex align-items-center">
+        <div className="TouchMain container d-flex">
           <div className="touchLeft">
-            <h3>Grt in Touch !</h3>
+            <h3>Get in Touch !</h3>
             <p>Always available for freelancing if the right project
               comes along, Feel free to contact me.</p>
             <form>
 
-              <div className="details d-flex align-items-center justify-content-between">
+              <div className="details d-flex  justify-content-between">
                 <div class="mb-3">
                   <label for="name" class="form-label">Name</label>
                   <input type="text" placeholder="your name" class="wdth-60 form-control" id="examplename" />
@@ -21,7 +21,7 @@ const GetTouch = () => {
                   <input type="email" class="wdth-60 form-control" placeholder="example@gmail.com" id="exampleInputEmail1" aria-describedby="emailHelp" />
                 </div>
               </div>
-              <div className="details  d-flex align-items-center justify-content-between">
+              <div className="details  d-flex  justify-content-between">
                 <div class="mb-3">
                   <label for="subject" class="form-label">Subject</label>
                   <input type="text" placeholder="your Subject" class="wdth-60 form-control" id="exampleSubject" />
@@ -50,11 +50,10 @@ const GetTouch = () => {
                 <h3>+91 6006189840</h3>
               </div>
               <div className="phone d-flex align-items-center justify-content-between">
-              <i class="bi bi-envelope"></i>
+                <i class="bi bi-envelope"></i>
                 bhatmuddu472@gmail.com
               </div>
             </div>
-
           </div>
         </div>
       </div>
