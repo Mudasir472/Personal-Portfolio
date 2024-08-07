@@ -10,7 +10,6 @@ const GetTouch = () => {
             <p>Always available for freelancing if the right project
               comes along, Feel free to contact me.</p>
             <form>
-
               <div className="details d-flex  justify-content-between">
                 <div class="mb-3">
                   <label for="name" class="form-label">Name</label>
@@ -60,5 +59,4 @@ const GetTouch = () => {
     </>
   )
 }
-
 export default GetTouch;
